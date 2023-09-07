@@ -1,0 +1,197 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+img {
+	max-width: 100%;
+	/*最大寬度會以圖片的寬度為主*/
+	image-rendering: -webkit-optimize-contrast;
+	/*圖片縮小時不會有鋸齒*/
+}
+
+.wrap {
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.name {
+	background-color: #103d66;
+	height: 920px;
+	position: relative;
+}
+
+.header {
+	display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.circleimg{
+  border-radius: 50%;
+  width:350px;
+  height:350px;
+  border: 16px solid #b29b79;
+}
+
+
+.header h1 {
+	font-size:84px;
+	font-weight: bold;
+	color: #b29b79;
+	padding: 70px 0 25px 0;
+}
+
+.header h2 {
+	font-size: 70px;
+	color: #fff;
+	padding-top: 25px;
+}
+
+.header h3 {
+	font-size: 60px;
+	color: #b29b79;
+	padding: 20px;
+	z-index: 3;
+}
+
+.address {
+	display: flex;
+	justify-content: center;
+}
+
+.address .white {
+  	position: absolute;
+  	bottom: 0;
+	z-index: 1;
+	
+}
+
+.address .book {
+	width: 400px;
+	background: #b29b79;
+	border-radius: 5px;
+	display: flex;
+    justify-content: space-evenly;
+	align-items: center;
+	margin: 0 auto;
+	position: absolute;
+	z-index: 2;
+	bottom: 70px;
+}
+
+.address .book p {
+	font-size:50px;
+	font-weight: bold;
+	color: #fff;
+	padding-top: 5px;
+}
+
+.address .book a {
+	text-decoration: none;
+}
+
+.content {
+	background: #fff;
+	display: flex;
+	justify-content: center;
+    flex-direction: column;
+    align-items: center;
+	margin-bottom: 50px;
+}
+
+.item {
+	width: 740px;
+	background: #e2e5ea;
+	color: black;
+	display: flex;
+	justify-content: space-between;
+    align-items: center;
+	font-size: 34px;
+	font-weight: bold;
+	padding: 3px 10px;
+	margin-bottom: 15px;
+}
+
+.item .word {
+	flex-grow: 1;
+	padding: 0 0 0 10px;
+}
+
+.title {
+	width: 760px;
+    display: flex;
+    align-items: center;
+    padding: 0 0 25px 0;
+}
+
+.title span {
+	font-size:34px;
+	font-weight: bold;
+	color: #b29b79;
+	padding: 0 20px;
+}
+
+.title-line {
+	background: #b29b79;
+	height: 2px;
+	flex-grow: 1;
+}
+@media (max-width:480px) {
+	.item {
+		width: 75%;
+		 }
+		}
+
+
+
