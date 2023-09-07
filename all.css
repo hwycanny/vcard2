@@ -59,13 +59,13 @@ img {
 
 .wrap {
 	width: 100%;
-	max-width: 960px;
+	max-width: 640px;
 	margin: 0 auto;
 }
 
 .name {
 	background-color: #103d66;
-	height: 920px;
+	height: 670px;
 	position: relative;
 }
 
@@ -79,29 +79,29 @@ img {
 
 .circleimg{
   border-radius: 50%;
-  width:350px;
-  height:350px;
-  border: 16px solid #b29b79;
+  width:250px;
+  height:250px;
+  border: 14px solid #b29b79;
 }
 
 
 .header h1 {
-	font-size:84px;
+	font-size:46px;
 	font-weight: bold;
 	color: #b29b79;
-	padding: 70px 0 25px 0;
+	padding: 50px 0 30px 0;
 }
 
 .header h2 {
-	font-size: 70px;
+	font-size: 44px;
 	color: #fff;
 	padding-top: 25px;
 }
 
 .header h3 {
-	font-size: 60px;
+	font-size: 38px;
 	color: #b29b79;
-	padding: 20px;
+	padding: 18px;
 	z-index: 3;
 }
 
@@ -112,13 +112,13 @@ img {
 
 .address .white {
   	position: absolute;
-  	bottom: 0;
+  	bottom: -1px;
 	z-index: 1;
 	
 }
 
 .address .book {
-	width: 400px;
+	width: 280px;
 	background: #b29b79;
 	border-radius: 5px;
 	display: flex;
@@ -127,18 +127,23 @@ img {
 	margin: 0 auto;
 	position: absolute;
 	z-index: 2;
-	bottom: 70px;
+	bottom: 42px;
 }
 
 .address .book p {
-	font-size:50px;
+	font-size:30px;
 	font-weight: bold;
 	color: #fff;
-	padding-top: 5px;
+
 }
 
 .address .book a {
 	text-decoration: none;
+}
+
+.book img {
+	width: 44px;
+	padding:4px 0;
 }
 
 .content {
@@ -147,19 +152,19 @@ img {
 	justify-content: center;
     flex-direction: column;
     align-items: center;
-	margin-bottom: 50px;
+	margin-bottom: 40px;
 }
 
 .item {
-	width: 740px;
+	width: 500px;
 	background: #e2e5ea;
 	color: black;
 	display: flex;
 	justify-content: space-between;
     align-items: center;
-	font-size: 34px;
+	font-size: 22px;
 	font-weight: bold;
-	padding: 3px 10px;
+	padding: 2px 10px;
 	margin-bottom: 15px;
 }
 
@@ -168,18 +173,22 @@ img {
 	padding: 0 0 0 10px;
 }
 
+.item img {
+	width: 42px;
+}
+
 .title {
-	width: 760px;
+	width: 520px;
     display: flex;
     align-items: center;
-    padding: 0 0 25px 0;
+    padding: 5px 0 25px 0;
 }
 
 .title span {
-	font-size:34px;
+	font-size:26px;
 	font-weight: bold;
 	color: #b29b79;
-	padding: 0 20px;
+	padding: 0 18px;
 }
 
 .title-line {
