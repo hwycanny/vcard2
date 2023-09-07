@@ -65,7 +65,7 @@ img {
 
 .name {
 	background-color: #103d66;
-	height: 670px;
+	height: 520px;
 	position: relative;
 }
 
@@ -79,27 +79,26 @@ img {
 
 .circleimg{
   border-radius: 50%;
-  width:250px;
-  height:250px;
-  border: 14px solid #b29b79;
+  width:150px;
+  height:150px;
+  border: 8px solid #b29b79;
 }
 
 
 .header h1 {
-	font-size:46px;
-	font-weight: bold;
+	font-size:38px;
 	color: #b29b79;
 	padding: 50px 0 30px 0;
 }
 
 .header h2 {
-	font-size: 44px;
+	font-size: 28px;
 	color: #fff;
 	padding-top: 25px;
 }
 
 .header h3 {
-	font-size: 38px;
+	font-size: 24px;
 	color: #b29b79;
 	padding: 18px;
 	z-index: 3;
@@ -118,7 +117,7 @@ img {
 }
 
 .address .book {
-	width: 280px;
+	width: 200px;
 	background: #b29b79;
 	border-radius: 5px;
 	display: flex;
@@ -127,12 +126,11 @@ img {
 	margin: 0 auto;
 	position: absolute;
 	z-index: 2;
-	bottom: 42px;
+	bottom: 54px;
 }
 
 .address .book p {
-	font-size:30px;
-	font-weight: bold;
+	font-size:22px;
 	color: #fff;
 
 }
@@ -142,7 +140,7 @@ img {
 }
 
 .book img {
-	width: 44px;
+	width: 32px;
 	padding:4px 0;
 }
 
@@ -162,8 +160,7 @@ img {
 	display: flex;
 	justify-content: space-between;
     align-items: center;
-	font-size: 22px;
-	font-weight: bold;
+	font-size: 16px;
 	padding: 2px 10px;
 	margin-bottom: 15px;
 }
@@ -174,7 +171,7 @@ img {
 }
 
 .item img {
-	width: 42px;
+	width: 32px;
 }
 
 .title {
@@ -185,15 +182,14 @@ img {
 }
 
 .title span {
-	font-size:26px;
-	font-weight: bold;
+	font-size:16px;
 	color: #b29b79;
 	padding: 0 18px;
 }
 
 .title-line {
 	background: #b29b79;
-	height: 2px;
+	height: 1px;
 	flex-grow: 1;
 }
 @media (max-width:480px) {
