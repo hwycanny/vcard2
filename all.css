@@ -65,7 +65,7 @@ img {
 
 .name {
 	background-color: #103d66;
-	height: 480px;
+	height: 450px;
 	position: relative;
 }
 
@@ -154,7 +154,7 @@ img {
 }
 
 .item {
-	width: 500px;
+	width: 400px;
 	background: #e2e5ea;
 	color: black;
 	display: flex;
