@@ -199,7 +199,9 @@ img {
 	.title {
 		width: 85%;
 	    }
+	.address .book {
+		bottom: 20px;
+	    }
 	}
-
 
 
