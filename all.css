@@ -175,7 +175,7 @@ img {
 }
 
 .title {
-	width: 480px;
+	width: 420px;
     display: flex;
     align-items: center;
     padding: 5px 0 25px 0;
@@ -194,9 +194,12 @@ img {
 }
 @media (max-width:480px) {
 	.item {
-		width: 75%;
+		width: 85%;
 		 }
-		}
+	.title {
+		width: 85%;
+	    }
+	}
 
 
 
